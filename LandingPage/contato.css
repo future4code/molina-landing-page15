@@ -1,4 +1,11 @@
-/*-----------------Pagina de Contato-----------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------top-bar(cabecalho)-------------------*/
+
+
+/*-----------------Corpo da Pagina - Pagina de Contato-----------------------*/
 
 .conto-ajuste{
     position: relative;
