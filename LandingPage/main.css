@@ -71,7 +71,7 @@
 
 .menu a:hover::before{
     transform: scale(1,1);   
-}
+} 
 
 
 
@@ -79,7 +79,7 @@
 /* --------------toda pagina------------- */
 .todaahome{
     width: 100vw;
-    height: 200vh;
+    height: 230vh;
     background-color: cyan;
 }
 
@@ -88,6 +88,9 @@ main{
     background-color: blue;
     width: 100%;
     height: 100%;
+    top: 100px;
+    position: absolute;
+    bottom: 0;
 } 
 
 /* -------------section 1-------------- */
@@ -146,7 +149,7 @@ main{
 
 /* ------------section 2---------------*/
 
-.segunda{
+ .segunda{
     background-color: white;
     top: 200vh;
     width: 100%;
@@ -195,10 +198,10 @@ main{
 .conteudoSegundaSection button:hover {
     background-color: #368AEB;
     cursor: pointer;
-  }
-/* --------------Rodape--------------- */
+  } 
+/*-------------Rodape--------------- */
 footer{
-    height: 20%;
+    height: 10%;
     width: 100%;
     background-color:#3B4F66;
     position: absolute;
