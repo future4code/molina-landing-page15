@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* --------tamanho da pagina-------- */
+html, body {
+    max-height: 250%;
+}
+
+/* --------menu------ */
+
+.topbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #3B4F66;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    
+}
+
+.topbar .img-topbar
+{
+    height: 110;
+    width: 110px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    float: left;
+    height: 110px;
+    align-items: center;
+}
+
+.menu a{
+    font-family:'Open-sans';
+    font-size: 25px;
+    color: #bcbcbc;
+    text-transform: lowercase;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.menu a:first-child{
+    margin-left: 0;
+}
+
+.menu a:hover{
+    color: #6e9769;
+}
+
+.menu a::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #6e9769;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.menu a:hover::before{
+    transform: scale(1,1);   
+}
+
+
+/* -----------conteudo da pagina----------- */
+.conteudo{
+    background-color: burlywood;
+    width: 100%;
+    height: 200vh;
+}
+
+/* -------------section 1-------------- */
+.imagemResponsivaMobile{
+    display: none;
+}
+.primeira{
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0 0 0;
+}
+
+.imagemPrimeiraSection{
+    background-color: white;
+    width: 800px;
+    height: 448px;
+
+}
+
+.conteudoPrimeiraSection{
+    width: 35%;
+    height: 76%;
+    padding: 15px;
+
+} 
+
+.caixaConteudo{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixaConteudo img{
+    width: 300px;
+    height: 300px;
+}
+
+.caixaButton{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoPrimeiraSection button{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(10,23,55,0.5);
+    font-size: medium;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.conteudoPrimeiraSection button:hover {
+    background-color: #368AEB;
+    cursor: pointer;
+  }
+
+  /* ------------section 2---------------*/
+
+ .segunda{
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagemSegundaSection{
+    background-color: white;
+    width: 800px;
+    height: 448px;
+}
+
+.conteudoSegundaSection{
+    width: 35%;
+    height: 76%;
+    padding: 15px;
+
+} 
+
+.conteudoSegundaSection button{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(10,23,55,0.5);
+    font-size: medium;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.conteudoSegundaSection button:hover {
+    background-color: #368AEB;
+    cursor: pointer;
+  } 
+
+/* ---------------rodape-------------- */
+.rodape{
+    width: 100%;
+    background-color: #3B4F66;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoSemLegenda{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoSemLegenda img{
+    width: 130px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.icones{
+    height: 50%;
+    background-color: #3B4F66;
+    border-left: 2px solid #A17322;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icones img{
+    width: 40px;
+    height: 40px;
+    margin: 0 80px 0 80px;
+}
+
+/* -----------Responsividade---------- */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    html, body {
+        max-width: 100%;
+        max-height: 300%;
+        }
+
+    .conteudo{
+        background-color: burlywood;
+        width: 100%;
+        max-width: 300%;
+    }
+    /* -----topo---- */
+    /* .topbar 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 200px;
+        align-content: center;
+       justify-items: center;
+        position: relative;
+
+    } */
+    /* all section */
+    .imagemResponsivaMobile{
+        width: 320px;
+        height: 200px;
+        display: block;
+    }
+    .imagemSegundaSection, .imagemPrimeiraSection{
+        display: none;
+    }
+
+    .primeira, .segunda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixaConteudo{
+        height: 300px;
+    
+    }
+
+    .conteudoSegundaSection, .conteudoPrimeiraSection{
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        }
+
+    /* section 1 */
+     .primeira{
+        padding: 0 0 0 0;
+        height: 50%;
+    }
+    /* section 2 */
+    .segunda{
+        background-color: #64C1C1;
+        height: 50%;
+    } 
+    /* .rodape */
+    .rodape{
+        width: 100%;
+        height: 7vh;
+        background-color: #3B4F66;
+    }
+    
+    .banner{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .icones{
+        height: 100%;
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icones img{
+        width: 20px;
+        height: 20px;
+        margin: 0 0 0 0;
+    }
+    .LogoSemLegenda{
+        display: none;
+    }
+
+}
