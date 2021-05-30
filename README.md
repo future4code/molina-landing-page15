@@ -37,7 +37,7 @@
   <li>Ser Responsiva                             ✅</li>
   <li>Seguir semantica HTML                      ✅</li>
   <li>Links para as redes sociais                ✅ </li>
-  <li>CSS separado em arquivos exerternos        ✅</li>
+  <li>CSS separado em arquivos externos          ✅</li>
   <li>Seguir uma paleta de cores baseada no logo ✅</li>
   <li>Conter duas seções                         ✅</li>
 </ul>
