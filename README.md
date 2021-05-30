@@ -34,12 +34,12 @@
 <h2> Criterios atentidos</h2>
 
 <ul>
-  <li>Responsividade</li>
-  <li>Responsividade</li>
-  <li>Responsividade</li>
-  <li>Responsividade</li>
-  <li>Responsividade</li>
-  <li>Responsividade</li>
+  <li>Ser Responsiva                             ✅</li>
+  <li>Seguir semantica HTML                      ✅</li>
+  <li>Links para as redes sociais                ✅ </li>
+  <li>CSS separado em arquivos exerternos        ✅</li>
+  <li>Seguir uma paleta de cores baseada no logo ✅</li>
+  <li>Conter duas seções                         ✅</li>
 </ul>
 
 
@@ -52,4 +52,4 @@
 
 <h2> Link do surge para conferir a pagina</h2>
 
-ashamed-disgust.surge.sh
+http://ashamed-disgust.surge.sh
