@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <p align="center">Este repositório contém o projeto de de uma LandingPage desenvolvida a partir dos conhecimentos <br> que adquirimos no primeiro modulo do curso fullstack da Labenu.  </p>
+  <p align="center">Este repositório contém o projeto de uma LandingPage desenvolvida a partir dos conhecimentos <br> que adquirimos no primeiro modulo do curso fullstack da Labenu.  </p>
 </p>
 
 
