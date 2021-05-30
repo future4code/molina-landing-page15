@@ -303,10 +303,11 @@ body {
   .primeira {
     padding: 0 0 0 0;
     height: 50%;
+    background-color: #64c1c1;
   }
   /* section 2 */
   .segunda {
-    background-color: #64c1c1;
+    background-color: #02E866;
     height: 50%;
   }
   /* .rodape */
