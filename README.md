@@ -46,9 +46,10 @@
 <h2> Paleta de cores ultizada no desenvolvimento </h2>
 
 
-/inserir imagem da paleta de cores aqui/
+![image](https://user-images.githubusercontent.com/83046824/120120372-2e78ca80-c173-11eb-8d17-9cf30fb6ab46.png)
+
 
 
 <h2> Link do surge para conferir a pagina</h2>
 
-/inserir link do surge aqui/
+ashamed-disgust.surge.sh
