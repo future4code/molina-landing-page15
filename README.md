@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="labenu.com.br">
+  <a href="https://labenu.com.br">
    <img src="https://img.shields.io/badge/Supported%20by-Labenu%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
   </a>
 </p>
